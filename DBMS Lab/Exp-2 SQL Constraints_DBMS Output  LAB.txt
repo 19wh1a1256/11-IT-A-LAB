@@ -1,1 +1,15 @@
-
+roll_num	name
+6	Swapna
+ssn	emp_name	age
+1255	Sravya	18
+1256	Sowmya	19
+1257	Harshitha	NULL
+1258	Aarthi	19
+Event_id	Event_name	coord_id
+101	singing	1256
+102	Drama	1255
+103	Dance	1257
+ht_num	name
+1255	Shreya
+1256	Ramya
+1257	Sanjana
