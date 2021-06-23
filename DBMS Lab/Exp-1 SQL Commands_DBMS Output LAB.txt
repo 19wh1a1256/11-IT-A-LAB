@@ -1,0 +1,19 @@
+BusNo	Source	Destination
+TS01	Hyderabad	vizag
+TS02	Banglore	Guntur
+TS03	Delhi	Hyderabad
+TS04	Mumbai	Hyderabad
+PNo	PName	PAge	PSex
+1255	Sravya	19	Female
+1256	Manasa	20	Female
+1258	Aarthi	19	Female
+Ticket_No	Journey_date	Age	Sex	Source	Arrival_time	Destination	Dep_time
+1	2021-06-22	19	F	HYD	9:00	MUM	3:00
+PNo	Journey_date	No_of_seats	Address	Contact_No	Status
+1256	2021-06-25	2	Rajiv Gandhi Nagar	234576	R
+Tables_in_bus_reservation_system
+Bus
+Cancellation
+Reservation
+Ticket
+passenger
