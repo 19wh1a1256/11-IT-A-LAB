@@ -1,1 +1,20 @@
+create database Employee;
+USE Employee;
+create table Employee(ssn int primary key,emp_name varchar(15),age int default 19);
+insert into Employee values (1255,'Sravya',18);
+insert into Employee values (1256,'Sowmya',19);
+insert into Employee values (1257,'Harshitha',null);
+insert into Employee(ssn,emp_name) values (1258,'Aarthi');
+create table Student(roll_num int UNIQUE,name varchar(20),check(roll_num>0));
+insert into Student values(6,'Swapna');
+select * from Student;
+select * from Employee;
+
+create table Student1(ht_num int primary key,name varchar(20));
+insert into Student1 values(1255,'Shreya'),(1256,'Ramya'),(1257,'Sanjana');
+
+create table Event(Event_id int primary key,Event_name varchar(10),coord_id int,foreign key(coord_id) references Student1(ht_num));
+insert into Event values(101,'singing',1256),(102,'Drama',1255),(103,'Dance',1257);
+select * from Event;
+select * from Student1;
 
