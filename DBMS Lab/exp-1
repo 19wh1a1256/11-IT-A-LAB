@@ -6,8 +6,6 @@ insert into Bus values('TS01','Hyderabad','vizag');
 insert into Bus values('TS02','Banglore','Guntur');
 insert into Bus values('TS03','Delhi','Hyderabad');
 insert into Bus values('TS04','Mumbai','Hyderabad');
-alter TABLE Bus add colour varchar(3);
-update Bus set colour = 'Yellow';
 select * from Bus;
 
 CREATE TABLE passenger(PNo int(9) primary key, PName varchar(15),PAge int,PSex Char(10),p_seatnum int);
