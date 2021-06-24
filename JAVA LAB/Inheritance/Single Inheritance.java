@@ -1,4 +1,4 @@
-class Base     //SINGLE LEVEL INHERITANCE
+class Base     
 {
 	int a = 10;
 }
