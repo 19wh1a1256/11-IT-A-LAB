@@ -1,6 +1,6 @@
 public class SwitchMonth {    
 public static void main(String[] args) {     
-    int month=11;    
+    int month=4;    
     String monthString="";   
     switch(month){    
     case 1: monthString="January";  
