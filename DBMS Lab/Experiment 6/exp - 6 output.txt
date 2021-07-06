@@ -1,0 +1,41 @@
+cust_id	name
+1	Rita
+2	Sita
+3	Anitha
+4	Sunitha
+id	cust_id	day
+1	1	2021-06-25
+3	2	2021-06-23
+2	3	2021-06-20
+4	4	2021-06-25
+cust_id
+1
+2
+3
+4
+cust_id
+1
+2
+3
+4
+cust_id
+1
+2
+3
+4
+cust_id
+1
+4
+id	Cust_name
+4	Sunitha
+cust_id	name
+1	Rita
+2	Sita
+3	Anitha
+cust_id
+1
+2
+4
+cust_id
+1
+2
