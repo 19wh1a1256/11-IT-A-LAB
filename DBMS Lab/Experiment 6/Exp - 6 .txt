@@ -1,0 +1,27 @@
+create database 19wh1a1256;
+USE 19wh1a1256;
+
+create table customer (cust_id int primary key,name varchar(20));
+insert into customer values(1,"Rita");
+insert into customer values(2,"Sita");
+insert into customer values(3,"Anitha");
+insert into customer values(4,"Sunitha");
+select * from customer ;
+
+create table Reservations(id int primary key,cust_id int,day date,foreign key(cust_id) references customer(cust_id));
+insert into Reservations values(1,1,'2021-06-25');
+insert into Reservations values(3,2,'2021-06-23');
+insert into Reservations values(2,3,'2021-06-20');
+insert into Reservations values(4,4,'2021-06-25');
+select * from Reservations;
+select cust_id from customer where cust_id<>ALL(select cust_id from Reservations);
+select cust_id from customer where cust_id=ANY(select cust_id from Reservations);
+select cust_id from customer where cust_id=SOME(select cust_id from Reservations);
+select cust_id from customer where cust_id IN (select cust_id from Reservations);
+select cust_id from customer where cust_id not in (select cust_id from Reservations);
+select cust_id from customer where cust_id in (1,4);
+select cust_id as id,name as Cust_name from customer where cust_id in(select cust_id from Reservations where cust_id>3);
+select * from customer where cust_id between 1 and 3;
+select cust_id from customer where cust_id < 3 union select cust_id from Reservations where day='2021-06-25';
+select cust_id from customer where cust_id < 3 or cust_id in (select cust_id from Reservations where day='2021-06-23');
+select cust_id from customer where cust_id < 3 and cust_id in (select cust_id from Reservations where day='2021-06-20');
