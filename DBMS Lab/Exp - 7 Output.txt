@@ -1,0 +1,59 @@
+htno	name	cgpa	busnum
+1	sowmya	9.5	1
+2	sanjana	9	1
+3	bhavana	8.5	3
+4	sravya	9	4
+5	sita	8.5	3
+6	shruthi	9	2
+Minimum_cgpa
+8.5
+Maximum_cgpa
+9.5
+Average_cgpa
+8.916666666666666
+SUM_CGPA
+53.5
+count(*)
+6
+htno	name	cgpa	busnum
+2	sanjana	9	1
+3	bhavana	8.5	3
+4	sravya	9	4
+5	sita	8.5	3
+6	shruthi	9	2
+name
+sowmya
+sanjana
+sravya
+shruthi
+count(*)
+2
+htno	name	cgpa	busnum
+3	bhavana	8.5	3
+5	sita	8.5	3
+2	sanjana	9	1
+4	sravya	9	4
+6	shruthi	9	2
+1	sowmya	9.5	1
+htno	name	cgpa	busnum
+1	sowmya	9.5	1
+2	sanjana	9	1
+4	sravya	9	4
+6	shruthi	9	2
+3	bhavana	8.5	3
+5	sita	8.5	3
+busnum	stud_count_bus
+1	2
+3	2
+4	1
+2	1
+busnum	count(*)
+1	2
+3	2
+htno	name	cgpa
+1	sowmya	9.5
+2	sanjana	9
+3	bhavana	8.5
+4	sravya	9
+5	sita	8.5
+6	shruthi	9
